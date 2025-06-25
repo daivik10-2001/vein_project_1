@@ -1,0 +1,39 @@
+.about {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* flex-wrap: wrap; */
+    padding: 0 10%;
+    background-color: rgb(229, 230, 230);
+
+}
+.about_left img{
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+}
+.about_right{
+    width: 700px;
+    height: 400px;
+    
+}
+.about_right h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.about_right h3{
+    font-size: 22px;
+    color: rgb(240, 37, 37);
+    margin-bottom: 10px;
+}
+
+.about_right p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
