@@ -47,7 +47,8 @@
    margin: 20px 0;
 }
 .contact-col ul li img{
-    width: 30px;
+    /* width: 40px; */
+    height: 35px;
     margin-right:10px ;
 }
 .contact form input , .contact form textarea{
