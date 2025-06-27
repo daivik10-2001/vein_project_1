@@ -1,0 +1,25 @@
+.foot_container{
+   
+    padding: 0 10%;
+      background-color: rgb(139, 135, 135);
+    
+    
+}
+.footer{
+    
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 15px 0;
+    
+
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+   
+}

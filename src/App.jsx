@@ -5,6 +5,7 @@ import Products from './pages/Products'
 import { Route, Routes } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Footer from './components/Footer/Footer'
 
 
 const App = () => {
@@ -21,6 +22,8 @@ const App = () => {
           <Route path='contact' element={<Contact/>}/>
         </Routes>
       </div>
+       <Footer/>
+     
     </div>
   )
 }

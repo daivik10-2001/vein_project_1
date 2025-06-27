@@ -48,3 +48,11 @@ img{
 a.active{
     color: red;
 }
+nav.scrolled{
+    background-color: #fff;
+    transition: background-color 200ms linear;
+}
+.dark_nav{
+    background-color: #a7a3a3;
+    transition: 0.5s;
+}

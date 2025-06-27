@@ -1,11 +1,18 @@
-import React, { use } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../assets/vlogo.png';
 import'../components/Navbar.css'
 import {  NavLink  } from 'react-router-dom';
 const Navbar = () => {
-   
+    const [sticky, setSticky] = useState(false);
+
+    useEffect(()=>{
+      window.addEventListener('scroll', () => {
+        window.scrollY > 10 ? setSticky(true) : setSticky(false);
+      })
+    },[]);
+
   return (
-    <nav className='container'>
+    <nav className={`container ${sticky ? 'dark_nav' : ''}`}>
     
       <img src={logo} alt="" className='logo'  />
       <ul>
