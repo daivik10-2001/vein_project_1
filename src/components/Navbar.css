@@ -98,6 +98,7 @@ nav.scrolled {
         width: 200px;
         padding-top: 70px;
         transition: 0.5s;
+        border-radius: 20px;
     }
     nav ul li{
         display: block;
