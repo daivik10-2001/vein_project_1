@@ -36,7 +36,7 @@ const Contact = () => {
     <div className='contact-container'>
       <div className="contact">
         <div className="contact-col">
-          <h3> send us a message <img src={msgicon} alt="" />
+          <h3> Contact Us <img src={msgicon} alt="" />
           </h3>
           <p>We welcome all inquiries, support requests, and collaboration opportunities. Please feel free to contact our team for any assistance or information. We are committed to providing prompt and professional responses to ensure your experience with us is seamless and efficient.</p>
           <ul>
