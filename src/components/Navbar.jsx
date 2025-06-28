@@ -21,15 +21,16 @@ const Navbar = () => {
     
       <img src={logo} alt="" className='logo'  />
       <ul className={mobilemenu ? '' : 'hide-mobile-menu'}>
-     <NavLink to='/'><li>Home</li></NavLink>   
-        <NavLink to='/about'><li>About</li></NavLink> 
-        <NavLink to='/products'><li>Products</li></NavLink> 
-        <NavLink to='/contact'><li><button className='btn'>Contact</button></li></NavLink> 
+     <NavLink to='/'onClick={toggleMenu}><li>Home</li></NavLink>   
+        <NavLink to='/about' onClick={toggleMenu}><li>About</li></NavLink> 
+        <NavLink to='/products' onClick={toggleMenu}><li>Products</li></NavLink> 
+        <NavLink to='/contact' onClick={toggleMenu}><li><button className='btn'>Contact</button></li></NavLink> 
         
       </ul>
       <img src={menuicon} alt="" className= 'menu-icon' onClick={toggleMenu} />
       
     </nav>
+ 
   )
 }
 
